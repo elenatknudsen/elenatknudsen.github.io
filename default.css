@@ -1,0 +1,24 @@
+h1{
+    color: darkslategrey;
+    font-family: 'Megrim', cursive;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+ul{
+    list-style-type: square;
+}
+a:link {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+a:visited {
+    color: blue;
+}
+p{
+    font-family: 'Darker Grotesque', sans-serif;
+    padding: 20px;
+    color: white;
+}
+body{
+    background-color: cadetblue;
+}
