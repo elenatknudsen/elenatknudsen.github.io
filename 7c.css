@@ -1,0 +1,49 @@
+body{
+    background-image: url('graphics/paper.jpg');
+    background-repeat: no-repeat;
+}
+p{
+    color: black;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 24px;
+}
+h1{
+    color: black;
+    font-size: 48px;
+    font-family: 'Homemade Apple', cursive;    
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+}
+a:link {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
+.button {
+    background-image: url("graphics/leather.jpg");
+    border-style: outset;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    color: white;
+    font-family: 'Homemade Apple', cursive;    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 0.4s;
+  }
+  .button:hover {
+    color: darkred;
+    text-shadow: 2px 2px 5px red; 
+  }
+  nav {
+    float: left;
+    width: 37%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: none;
+    display: hidden;
+    padding: 20px;
+  }
